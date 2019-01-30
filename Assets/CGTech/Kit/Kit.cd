@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Anglia.CGTech.CKit.Helper.KitComponent">
+    <Position X="19.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAWCgBADBAAAQgEFAEAiJAAKAAQAAEIIAAAGAFYAHAE=</HashCode>
+      <FileName>Assets\CGTech\Kit\Helper\KitComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Data.BooleanVariable">
+    <Position X="5" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAgAAAAAAAAEACAAAAAQAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Data\Booleans\BooleanVariable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Functions.BooleanLogic">
+    <Position X="18.5" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAEAAAAAAAQAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Functions\Logic\BooleanLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Data.BooleanValue">
+    <Position X="15.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Data\Booleans\BooleanValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Data.GenericDataSource&lt;T&gt;">
+    <Position X="19.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQIACCAAgAIAAgBAAEAKAQYAAQAAAAAAEQCQAAACCA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Helper\GenericDataSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Functions.CompareFloats">
+    <Position X="2.75" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAEAAAAAAAQAAAAgAAABAAAAAIA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Functions\Logic\CompareFloats.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_valueA" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Data.ColorValue" Collapsed="true">
+    <Position X="32" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Data\Colors\ColorValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Data.FloatingPointValue" Collapsed="true">
+    <Position X="0.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Data\Floats\FloatingPointValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Data.IntegerValue" Collapsed="true">
+    <Position X="29.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Data\Integers\IntegerValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Data.VectorValue" Collapsed="true">
+    <Position X="34.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Data\Vectors\VectorValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Data.GameObjectValue" Collapsed="true">
+    <Position X="36.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Data\GameObjects\GameObjectValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Data.StringValue" Collapsed="true">
+    <Position X="38.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Data\Strings\StringValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.Kit.Data.ColorVariable" Collapsed="true">
+    <Position X="32" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAEAIAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Data\Colors\ColorVariable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Functions.GameObjectToBoolean" Collapsed="true">
+    <Position X="9.5" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAEAAAEAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Functions\GameObjectToBoolean.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.CGTech.Kit.Functions.IterationTrigger" Collapsed="true">
+    <Position X="7.25" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAEAAAEAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Functions\IterationTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Functions.CompareIntegers" Collapsed="true">
+    <Position X="11.75" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAQAAAAgAAABAAAAAIA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Functions\Logic\CompareIntegers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Functions.CompareStrings" Collapsed="true">
+    <Position X="14" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAEABAAAAAQAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Functions\Logic\CompareStrings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Functions.CompareVectors" Collapsed="true">
+    <Position X="16.25" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAEAAAEAAAAAQAQAAAAgAAAAACAAAAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Functions\Logic\CompareVectors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Functions.ObjectExists" Collapsed="true">
+    <Position X="20.75" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAEAAAEAAAAAAAQAAAAgAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Functions\ObjectExists.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Output.SetInitialVelocity" Collapsed="true">
+    <Position X="23" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAUAAAEAIAAAAEQAAQQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Functions\SetInitialVelocity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Input.InputButton" Collapsed="true">
+    <Position X="25.25" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAEAAAEAAAAAAAQAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Input\InputButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Input.InputCanvasButton" Collapsed="true">
+    <Position X="27.5" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Input\InputCanvasButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

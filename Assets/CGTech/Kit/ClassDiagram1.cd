@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Anglia.CGTech.CKit.Data.IntegerVariable">
+    <Position X="8" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAEAAAAAAAQAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Data\Integers\IntegerVariable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Data.IntegerValue">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAACAAAAAAAAAAAAEAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Data\Integers\IntegerValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Data.StoreInteger">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAQQAAAAAAAAAQAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Data\Integers\StoreInteger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.CGTech.CKit.Helper.RememberFunction">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAABAAIAAABAAQCCAAAAAQAAAAAAEQCQAAACCA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Helper\RememberFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Helper.FunctionKitComponent">
+    <Position X="7.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Helper\CommandSignal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Helper.KitComponent" Collapsed="true">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAWCgBADBAAAQgEFAEAiJAAKAAQAAEIIAAAGAFYAHAE=</HashCode>
+      <FileName>Assets\CGTech\Kit\Helper\KitComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Helper.ActiveKitComponent">
+    <Position X="3.25" Y="1" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Anglia.CGTech.CKit.Helper.ActiveKitComponent.NextProcess" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\CGTech\Kit\Helper\ActiveKitComponent.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAEAAAAQAQAAAAAYAQAAIACAAAAAACAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Helper\ActiveKitComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anglia.CGTech.CKit.Data.DataSource" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAQAAAgAAAAAIAQYAAQAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\CGTech\Kit\Data\DataSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,343 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1781315952467662}
+  m_IsPrefabParent: 1
+--- !u!1 &1015311653200904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4818873693082410}
+  - component: {fileID: 114816671488546736}
+  m_Layer: 0
+  m_Name: Startup
+  m_TagString: Untagged
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1146923859394454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4567946161266012}
+  - component: {fileID: 114365008744887404}
+  m_Layer: 0
+  m_Name: Root Game Object
+  m_TagString: Untagged
+  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1237925381612802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4459912402192454}
+  - component: {fileID: 114761858740060574}
+  m_Layer: 0
+  m_Name: Timer
+  m_TagString: Untagged
+  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1614476913639512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4333375754998186}
+  - component: {fileID: 114222250955444228}
+  m_Layer: 0
+  m_Name: Duration
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1616409278276932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4850473173965204}
+  - component: {fileID: 114452244273689148}
+  m_Layer: 0
+  m_Name: Destroy Game Object
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1781315952467662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4473133986185308}
+  - component: {fileID: 114266764628169040}
+  m_Layer: 0
+  m_Name: Lifespan
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4333375754998186
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1614476913639512}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4473133986185308}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4459912402192454
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1237925381612802}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4473133986185308}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4473133986185308
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1781315952467662}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4333375754998186}
+  - {fileID: 4567946161266012}
+  - {fileID: 4459912402192454}
+  - {fileID: 4818873693082410}
+  - {fileID: 4850473173965204}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4567946161266012
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1146923859394454}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -2.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4473133986185308}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4818873693082410
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1015311653200904}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4473133986185308}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4850473173965204
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1616409278276932}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4473133986185308}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114222250955444228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1614476913639512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90471c471267224fbe3a4f463678351, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 0
+    y: -0.3
+    width: 2
+    height: 0.6
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: 'Stores and outputs a Floating Point (single precision decimal, eg 3.1412)
+    value.
+
+    Source should be [None] if this is a target of a Store X function.'
+  m_functionSource: {fileID: 0}
+  m_attachedToOutput: []
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: 5
+  m_source: {fileID: 0}
+--- !u!114 &114266764628169040
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1781315952467662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b9d5f4f31b06a49b0c7ccc01734c08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 0
+    y: 1.5
+    width: 0
+    height: 0
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Design-time element to draw a container around related child objects.
+  scaleFactor: 1.1
+  boxColor: {r: 1, g: 1, b: 1, a: 0.25}
+  m_FirstGenerationOnly: 0
+  m_mode: 2
+  m_hideGizmos: 0
+--- !u!114 &114365008744887404
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1146923859394454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2815b1548a49d0e428353a1412c784a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 0
+    y: -1.225
+    width: 2
+    height: 0.45000002
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Converts a GameObject to a GameObjectSource for use in Kit processes.
+  m_functionSource: {fileID: 0}
+  m_attachedToOutput: []
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: {fileID: 1781315952467662}
+--- !u!114 &114452244273689148
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1616409278276932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d031f8c88e1e44341b0759e32321df7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 6
+    y: 0.7
+    width: 2
+    height: 0.6
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Deletes a specified Game Object and children from the world.
+  m_doAfter: {fileID: 114761858740060574}
+  m_ObjectToDestroy: {fileID: 114365008744887404}
+  m_delay: 0.033333335
+--- !u!114 &114761858740060574
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1237925381612802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b7631dfe89cc9b4faa6110aa0122d8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 3
+    y: 0.625
+    width: 2
+    height: 0.75
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Counts time when active until a duration is reached, outputs true when
+    this occurs.
+  m_doAfter: {fileID: 114816671488546736}
+  m_Reset: {fileID: 0}
+  m_Duration: {fileID: 114222250955444228}
+  elapsedTime: 0
+--- !u!114 &114816671488546736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1015311653200904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70972189612f65f40b527710a6b31cac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 0
+    y: 0.775
+    width: 2
+    height: 0.45000002
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Event fires when this object starts working (level load or instantiation).

@@ -1,0 +1,14 @@
+{"code":"SUM_ANGLIA.CGTECH.CKIT.FUNCTIONS.ABSOLUTEVALUE","text":"The absolute value of the input (+ or - is returned separately)."}
+{"code":"SUM_ANGLIA.CGTECH.KIT.CONVERSION.CONVERTTORAY","text":"Convert origin and direction vectors into a Ray"}
+{"code":"IN_ANGLIA.CGTECH.KIT.CONVERSION.CONVERTTORAY_ORIGIN","text":"The location the ray is emitted from."}
+{"code":"IN_ANGLIA.CGTECH.KIT.CONVERSION.CONVERTTORAY_DIRECTION","text":"The direction the ray points in."}
+{"code":"IN_ANGLIA.CGTECH.CKIT.FUNCTIONS.ABSOLUTEVALUE_M_SOURCE","text":"Input value for the function"}
+{"code":"IN__ORIGIN","text":"IN__ORIGIN"}
+{"code":"IN__DIRECTION","text":"IN__DIRECTION"}
+{"code":"SUM_ANGLIA.CGTECH.CKIT.INPUT.THISRIGIDBODY","text":"SUM_ANGLIA.CGTECH.CKIT.INPUT.THISRIGIDBODY"}
+{"code":"SET_LOGICBLOCK_M_MODE","text":"Select the drawing mode (outline or filled) for the box"}
+{"code":"SUM_ANGLIA.CGTECH.CKIT.UI.CONCATENATE","text":"SUM_ANGLIA.CGTECH.CKIT.UI.CONCATENATE"}
+{"code":"SUM_ANGLIA.CGTECH.CKIT.UI.DISPLAYTEXT","text":"SUM_ANGLIA.CGTECH.CKIT.UI.DISPLAYTEXT"}
+{"code":"SET_FUNCTIONBLOCK_M_MODE","text":"SET_FUNCTIONBLOCK_M_MODE"}
+{"code":"AFF_ANGLIA.CGTECH.CKIT.CONTROL.IF_M_WHENTRUE","text":"AFF_ANGLIA.CGTECH.CKIT.CONTROL.IF_M_WHENTRUE"}
+{"code":"SET_ANGLIA.CGTECH.CKIT.OUTPUT.DESTROYGAMEOBJECT_DESTROYROOT","text":"Should this effect destroy the root object of the identified target"}

@@ -1,0 +1,2888 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 10
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &20437887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 20437889}
+  - component: {fileID: 20437888}
+  m_Layer: 0
+  m_Name: New Position [1.8]
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &20437888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 20437887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b82db447ac37943938b57d63c956ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 31
+    y: -5.8
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DATA.VECTORVARIABLE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: 'Stores and outputs a Vector (2D, xy) value.
+
+    Source should be [None] if this is a target of a Store X function.'
+  m_functionSource: {fileID: 1553344685}
+  m_attachedToOutput:
+  - m_currentValue
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: {x: 0, y: 0}
+  m_source: {fileID: 0}
+--- !u!4 &20437889
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 20437887}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 31, y: -5.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 562827631}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &76539384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 76539385}
+  - component: {fileID: 76539386}
+  m_Layer: 0
+  m_Name: L bound[2.10]
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &76539385
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 76539384}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1344263547}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &76539386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 76539384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95a635eedc9523845bd76a41d29e46e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 9.5
+    y: 9.2
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DATA.GAMEOBJECTVARIABLE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Stores and outputs a Game Object (e.g. from ExtractGameObject).
+  m_functionSource: {fileID: 1344263546}
+  m_attachedToOutput:
+  - m_currentValue
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: {fileID: 0}
+  m_source: {fileID: 0}
+--- !u!1 &150928290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 150928291}
+  - component: {fileID: 150928292}
+  m_Layer: 0
+  m_Name: Input Value [1.6]
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &150928291
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 150928290}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3, y: -2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 562827631}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &150928292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 150928290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90471c471267224fbe3a4f463678351, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 3
+    y: -2.3
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DATA.FLOATVARIABLE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: 'Stores and outputs a Floating Point (single precision decimal, eg 3.1412)
+    value.
+
+    Source should be [None] if this is a target of a Store X function.'
+  m_functionSource: {fileID: 489348805}
+  m_attachedToOutput:
+  - m_currentValue
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: 0
+  m_source: {fileID: 0}
+--- !u!1 &162667118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 162667119}
+  m_Layer: 0
+  m_Name: Player Avatar
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &162667119
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 162667118}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1168870922}
+  - {fileID: 562827631}
+  - {fileID: 1439081659}
+  - {fileID: 1765615646}
+  - {fileID: 1299695870}
+  - {fileID: 2003999393}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &239523726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 239523728}
+  - component: {fileID: 239523727}
+  m_Layer: 0
+  m_Name: U position[2.12]
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &239523727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 239523726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b82db447ac37943938b57d63c956ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 37.5
+    y: 8.7
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DATA.VECTORVARIABLE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: 'Stores and outputs a Vector (2D, xy) value.
+
+    Source should be [None] if this is a target of a Store X function.'
+  m_functionSource: {fileID: 2003999392}
+  m_attachedToOutput:
+  - m_currentValue
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: {x: 0, y: 0}
+  m_source: {fileID: 0}
+--- !u!4 &239523728
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 239523726}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: -2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2003999393}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &357163381
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 357163382}
+  - component: {fileID: 357163383}
+  m_Layer: 0
+  m_Name: Frame Update [1.5]
+  m_TagString: Untagged
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &357163382
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 357163381}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 562827631}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &357163383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 357163381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651e006865d3d924995a2a1e8d0dce12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: -3
+    y: -1.3
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.EVENTS.FRAMEUPDATE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Sends a Command Signal each frame of the game.
+  m_frameDuration: 0
+--- !u!1 &401701703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 401701705}
+  - component: {fileID: 401701704}
+  m_Layer: 0
+  m_Name: Vector
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &401701704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 401701703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b82db447ac37943938b57d63c956ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 20.5
+    y: -6.3
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DATA.VECTORVARIABLE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: 'Stores and outputs a Vector (2D, xy) value.
+
+    Source should be [None] if this is a target of a Store X function.'
+  m_functionSource: {fileID: 1851761308}
+  m_attachedToOutput:
+  - m_currentValue
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: {x: 0, y: 0}
+  m_source: {fileID: 0}
+--- !u!4 &401701705
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 401701703}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: -2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1851761307}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &464511856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 464511857}
+  - component: {fileID: 464511858}
+  m_Layer: 0
+  m_Name: Set Position [1.8]
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &464511857
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 464511856}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 47, y: 6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 562827631}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &464511858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 464511856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2570421ab8acaa54e8c816d8282b5a31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 47
+    y: 5.625
+    width: 2
+    height: 0.75
+  classCode: ANGLIA.CGTECH.CKIT.EFFECT.SETPOSITION
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Sets the position of a GameObject
+  m_doAfter: {fileID: 1336990041}
+  m_targetPosition: {fileID: 2022843811}
+  m_ObjectToPlace: {fileID: 1777599464}
+  m_isActive: {fileID: 0}
+--- !u!1 &489348803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 489348804}
+  - component: {fileID: 489348805}
+  m_Layer: 0
+  m_Name: Input [1.5]
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &489348804
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 489348803}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.5, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children: []
+  m_Father: {fileID: 562827631}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &489348805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 489348803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab6a65ae55f5da24ab485fb63530ccf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 0
+    y: -1.8
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.INPUT.INPUTAXISVALUE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Looks up the value of a specified axis (between -1 and 1)
+  m_doAfter: {fileID: 357163383}
+  m_AxisName: Horizontal
+  m_useRawValue: 0
+  m_currentValue: 0
+--- !u!1 &514071495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 514071497}
+  - component: {fileID: 514071496}
+  m_Layer: 0
+  m_Name: L position[2.12]
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &514071496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 514071495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b82db447ac37943938b57d63c956ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 31
+    y: 8.7
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DATA.VECTORVARIABLE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: 'Stores and outputs a Vector (2D, xy) value.
+
+    Source should be [None] if this is a target of a Store X function.'
+  m_functionSource: {fileID: 1299695869}
+  m_attachedToOutput:
+  - m_currentValue
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: {x: 0, y: 0}
+  m_source: {fileID: 0}
+--- !u!4 &514071497
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 514071495}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: -2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1299695870}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &519420028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 519420032}
+  - component: {fileID: 519420031}
+  - component: {fileID: 519420029}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &519420029
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+--- !u!20 &519420031
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.040672824, g: 0.0021359965, b: 0.4528302, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &519420032
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &562827630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 562827631}
+  - component: {fileID: 562827632}
+  m_Layer: 0
+  m_Name: PlayerMovementLogic [1.5]
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &562827631
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 562827630}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 489348804}
+  - {fileID: 357163382}
+  - {fileID: 150928291}
+  - {fileID: 1777599465}
+  - {fileID: 1097573469}
+  - {fileID: 1394566433}
+  - {fileID: 2049713484}
+  - {fileID: 1825692687}
+  - {fileID: 1437538062}
+  - {fileID: 1851761307}
+  - {fileID: 681748199}
+  - {fileID: 576208487}
+  - {fileID: 1553344686}
+  - {fileID: 2011145723}
+  - {fileID: 20437889}
+  - {fileID: 464511857}
+  - {fileID: 1336990042}
+  - {fileID: 2022843810}
+  m_Father: {fileID: 162667119}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &562827632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 562827630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b9d5f4f31b06a49b0c7ccc01734c08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  classCode: LOGICBLOCK
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Design-time element to draw a container around related child objects.
+  scaleFactor: 1.1
+  boxColor: {r: 1, g: 1, b: 1, a: 0.25}
+  m_FirstGenerationOnly: 0
+  m_mode: 2
+  m_hideGizmos: 0
+--- !u!1 &574446011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 574446012}
+  - component: {fileID: 574446013}
+  m_Layer: 0
+  m_Name: Find U boundary[2.10]
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &574446012
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 574446011}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.5, y: -1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1954649564}
+  m_Father: {fileID: 1765615646}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &574446013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 574446011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c249e923701d7164e90d0af68ee56152, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 9.5
+    y: 7.125
+    width: 2
+    height: 0.75
+  classCode: ANGLIA.CGTECH.CKIT.INPUT.FINDOBJECTBYSTRING
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Attempts to locate an object at runtime by name, and outputs a reference
+    to that object.
+  m_doAfter: {fileID: 1344263546}
+  m_name: {fileID: 1973485064}
+  m_searchRoot: {fileID: 0}
+  m_mode: 2
+  m_currentValue: {fileID: 0}
+--- !u!1 &576208485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 576208487}
+  - component: {fileID: 576208486}
+  m_Layer: 0
+  m_Name: Displacement [1.8]
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &576208486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 576208485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85d0c73a9a2368a46a035828456358f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 23
+    y: -9.375
+    width: 2
+    height: 0.75
+  classCode: ANGLIA.CGTECH.CKIT.MATHS.SCALEVECTOR
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Scales (multiplies) a 2D Vector by a float
+  m_doAfter: {fileID: 1825692686}
+  m_scaleFactor: {fileID: 681748198}
+  m_vectorSource: {fileID: 401701704}
+  m_currentValue: {x: 0, y: 0}
+--- !u!4 &576208487
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 576208485}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23, y: -9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1939972642}
+  m_Father: {fileID: 562827631}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &675848934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 675848936}
+  - component: {fileID: 675848935}
+  m_Layer: 0
+  m_Name: Start[2.10]
+  m_TagString: Untagged
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &675848935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 675848934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70972189612f65f40b527710a6b31cac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 3
+    y: 9.775
+    width: 2
+    height: 0.45000002
+  classCode: ANGLIA.CGTECH.CKIT.EVENTS.WHENSTARTS
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Event fires when this object starts working (level load or instantiation).
+--- !u!4 &675848936
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 675848934}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1765615646}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &681748197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 681748199}
+  - component: {fileID: 681748198}
+  m_Layer: 0
+  m_Name: Frame Duration [1.8]
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &681748198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 681748197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90471c471267224fbe3a4f463678351, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 0
+    y: -3.8
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DATA.FLOATVARIABLE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: 'Stores and outputs a Floating Point (single precision decimal, eg 3.1412)
+    value.
+
+    Source should be [None] if this is a target of a Store X function.'
+  m_functionSource: {fileID: 357163383}
+  m_attachedToOutput:
+  - m_frameDuration
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: 0
+  m_source: {fileID: 0}
+--- !u!4 &681748199
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 681748197}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -3.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 562827631}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &770800824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 770800826}
+  - component: {fileID: 770800825}
+  m_Layer: 0
+  m_Name: Lower boundary Name[2.10]
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &770800825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 770800824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72da04c74d2e94f4495b043a1e634979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 2.5
+    y: 6.2
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DATA.STRINGVARIABLE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Stores and outputs a String (text) value.
+  m_functionSource: {fileID: 0}
+  m_attachedToOutput: []
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: Lower boundary[2.12]
+  m_source: {fileID: 0}
+--- !u!4 &770800826
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 770800824}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5, y: -2.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1765615646}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &795734454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 795734455}
+  - component: {fileID: 795734456}
+  m_Layer: 0
+  m_Name: Input button[2.5]
+  m_TagString: Untagged
+  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &795734455
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 795734454}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.5, y: 8.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 819220914}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &795734456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 795734454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d695f2d4312faec479f3888dafefb885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 5.5
+    y: 8.2
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.INPUT.INPUTBUTTON
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Returns true when a specified button press is detected.
+  m_doAfter: {fileID: 1963348218}
+  m_axisName: Fire1
+  m_currentValue: 0
+--- !u!1 &819220913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 819220914}
+  - component: {fileID: 819220916}
+  - component: {fileID: 819220915}
+  m_Layer: 0
+  m_Name: Shooting logic[2.5]
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &819220914
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 819220913}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1963348219}
+  - {fileID: 795734455}
+  - {fileID: 1545026566}
+  - {fileID: 1286062274}
+  - {fileID: 1009944268}
+  - {fileID: 2023982813}
+  m_Father: {fileID: 1439081659}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &819220915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 819220913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0efe1a38fc952c64d8b2c88191c9d053, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  classCode: ANGLIA.CGTECH.CKIT.INPUT.PARENTGAMEOBJECT
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Converts a GameObject to a GameObjectSource for use in Kit processes.
+  m_functionSource: {fileID: 0}
+  m_attachedToOutput: []
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: {fileID: 1439081658}
+--- !u!114 &819220916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 819220913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b9d5f4f31b06a49b0c7ccc01734c08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  classCode: LOGICBLOCK
+  hideGizmos: 0
+  currentlySelected: 1
+  m_summary: Design-time element to draw a container around related child objects.
+  scaleFactor: 1.1
+  boxColor: {r: 1, g: 1, b: 1, a: 0.25}
+  m_FirstGenerationOnly: 0
+  m_mode: 2
+  m_hideGizmos: 0
+--- !u!1 &1009944266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1009944268}
+  - component: {fileID: 1009944267}
+  m_Layer: 0
+  m_Name: Get position[2.5]
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1009944267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1009944266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40caacc92ec6b4fb0384dd21e65599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 0
+    y: -0.3
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DISCOVERY.GETPOSITION
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Retrieves a vector from a Game Object source.
+  m_doAfter: {fileID: 795734456}
+  m_source: {fileID: 819220915}
+  m_currentValue: {x: 0, y: 0}
+--- !u!4 &1009944268
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1009944266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 819220914}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1097573467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1097573469}
+  - component: {fileID: 1097573468}
+  m_Layer: 0
+  m_Name: Discover Position [1.7]
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1097573468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1097573467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40caacc92ec6b4fb0384dd21e65599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 4.5
+    y: 1.7
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DISCOVERY.GETPOSITION
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Retrieves a vector from a Game Object source.
+  m_doAfter: {fileID: 489348805}
+  m_source: {fileID: 1777599464}
+  m_currentValue: {x: 0, y: 0}
+--- !u!4 &1097573469
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1097573467}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.5, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 562827631}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1104189680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1104189682}
+  - component: {fileID: 1104189681}
+  m_Layer: 0
+  m_Name: Text Lookup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1104189681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1104189680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ce6b6645e3df0c458b64cf645df5e7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_dictionary:
+  - code: SUM_ANGLIA.CGTECH.CKIT.FUNCTIONS.ABSOLUTEVALUE
+    text: The absolute value of the input (+ or - is returned separately).
+  - code: SUM_ANGLIA.CGTECH.KIT.CONVERSION.CONVERTTORAY
+    text: Convert origin and direction vectors into a Ray
+  - code: IN_ANGLIA.CGTECH.KIT.CONVERSION.CONVERTTORAY_ORIGIN
+    text: The location the ray is emitted from.
+  - code: IN_ANGLIA.CGTECH.KIT.CONVERSION.CONVERTTORAY_DIRECTION
+    text: The direction the ray points in.
+  - code: IN_ANGLIA.CGTECH.CKIT.FUNCTIONS.ABSOLUTEVALUE_M_SOURCE
+    text: Input value for the function
+  - code: IN__ORIGIN
+    text: IN__ORIGIN
+  - code: IN__DIRECTION
+    text: IN__DIRECTION
+  - code: SUM_ANGLIA.CGTECH.CKIT.INPUT.THISRIGIDBODY
+    text: SUM_ANGLIA.CGTECH.CKIT.INPUT.THISRIGIDBODY
+  - code: SET_LOGICBLOCK_M_MODE
+    text: Select the drawing mode (outline or filled) for the box
+  - code: SUM_ANGLIA.CGTECH.CKIT.UI.CONCATENATE
+    text: SUM_ANGLIA.CGTECH.CKIT.UI.CONCATENATE
+  - code: SUM_ANGLIA.CGTECH.CKIT.UI.DISPLAYTEXT
+    text: SUM_ANGLIA.CGTECH.CKIT.UI.DISPLAYTEXT
+  - code: SET_FUNCTIONBLOCK_M_MODE
+    text: SET_FUNCTIONBLOCK_M_MODE
+  - code: AFF_ANGLIA.CGTECH.CKIT.CONTROL.IF_M_WHENTRUE
+    text: AFF_ANGLIA.CGTECH.CKIT.CONTROL.IF_M_WHENTRUE
+  - code: SET_ANGLIA.CGTECH.CKIT.OUTPUT.DESTROYGAMEOBJECT_DESTROYROOT
+    text: Should this effect destroy the root object of the identified target
+--- !u!4 &1104189682
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1104189680}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1168870921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1168870922}
+  - component: {fileID: 1168870923}
+  m_Layer: 0
+  m_Name: New Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1168870922
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1168870921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 162667119}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1168870923
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1168870921}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: ae426102f43f0d74d98c32293aa1bf2a, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!1 &1175626319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1175626321}
+  - component: {fileID: 1175626320}
+  m_Layer: 0
+  m_Name: Lower boundary[2.12]
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1175626320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1175626319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93dc251b958bb747b2996b0fbe75100, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 9.01
+    y: 4.6150002
+    width: 2
+    height: 0.45000002
+  classCode: ANGLIA.CGTECH.CKIT.INPUT.THISGAMEOBJECT
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Converts a GameObject to a GameObjectSource for use in Kit processes.
+  m_functionSource: {fileID: 0}
+  m_attachedToOutput: []
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: {fileID: 1175626319}
+--- !u!4 &1175626321
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1175626319}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.01, y: 4.84, z: 0.109375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1231715529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1231715532}
+  - component: {fileID: 1231715531}
+  - component: {fileID: 1231715530}
+  m_Layer: 0
+  m_Name: Kit Helper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1231715530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1231715529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf4bea9c96b2ee64dbc0f17ce7eb9b84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 114379437223005002, guid: c5c10aa11b64f9a4c9984f944ca6a234, type: 2}
+--- !u!114 &1231715531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1231715529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e683484c037be24481a2e0558017ada, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ver: 
+  location:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 25
+--- !u!4 &1231715532
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1231715529}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1286062273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1286062274}
+  - component: {fileID: 1286062275}
+  m_Layer: 0
+  m_Name: Button pressed[2.5]
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1286062274
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1286062273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.5, y: 8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 819220914}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1286062275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1286062273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae340221a9e11cb4b94b57d08033ca30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 11.5
+    y: 7.7
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DATA.BOOLEANVARIABLE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: 'Stores and outputs a Boolean (True/False) value.
+
+    Source should be [None] if this is a target of a Store X function.'
+  m_functionSource: {fileID: 795734456}
+  m_attachedToOutput:
+  - m_currentValue
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: 0
+  m_source: {fileID: 0}
+--- !u!1 &1299695868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1299695870}
+  - component: {fileID: 1299695869}
+  m_Layer: 0
+  m_Name: Get L position[2.12]
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1299695869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1299695868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40caacc92ec6b4fb0384dd21e65599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 29
+    y: 10.7
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DISCOVERY.GETPOSITION
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Retrieves a vector from a Game Object source.
+  m_doAfter: {fileID: 1553344685}
+  m_source: {fileID: 76539386}
+  m_currentValue: {x: 0, y: 0}
+--- !u!4 &1299695870
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1299695868}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 29, y: 11, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 514071497}
+  m_Father: {fileID: 162667119}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1336990040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1336990042}
+  - component: {fileID: 1336990041}
+  m_Layer: 0
+  m_Name: Clamp position[2.12]
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1336990041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1336990040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d66a44ef61c7414aa2f1a2b50c3bb67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 42
+    y: 7.55
+    width: 2
+    height: 0.90000004
+  classCode: ANGLIA.CGTECH.CKIT.FUNCTIONS.CLAMPVECTOR
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Returns the value of the source restricted to be above the lower boundary
+    and below the upper boundary values
+  m_doAfter: {fileID: 2003999392}
+  m_Input: {fileID: 20437888}
+  m_lowerBound: {fileID: 514071496}
+  m_upperBound: {fileID: 239523727}
+  m_currentValue: {x: 0, y: 0}
+--- !u!4 &1336990042
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1336990040}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 42, y: 8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 562827631}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1344263545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1344263547}
+  - component: {fileID: 1344263546}
+  m_Layer: 0
+  m_Name: Find L boundary[2.10]
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1344263546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1344263545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c249e923701d7164e90d0af68ee56152, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 6.5
+    y: 8.125
+    width: 2
+    height: 0.75
+  classCode: ANGLIA.CGTECH.CKIT.INPUT.FINDOBJECTBYSTRING
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Attempts to locate an object at runtime by name, and outputs a reference
+    to that object.
+  m_doAfter: {fileID: 675848935}
+  m_name: {fileID: 770800825}
+  m_searchRoot: {fileID: 0}
+  m_mode: 2
+  m_currentValue: {fileID: 0}
+--- !u!4 &1344263547
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1344263545}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 76539385}
+  m_Father: {fileID: 1765615646}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1394566431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1394566433}
+  - component: {fileID: 1394566432}
+  m_Layer: 0
+  m_Name: Direction [1.7]
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1394566432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1394566431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b82db447ac37943938b57d63c956ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: -3.5
+    y: -5.3
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DATA.VECTORVARIABLE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: 'Stores and outputs a Vector (2D, xy) value.
+
+    Source should be [None] if this is a target of a Store X function.'
+  m_functionSource: {fileID: 0}
+  m_attachedToOutput: []
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: {x: 1, y: 0}
+  m_source: {fileID: 0}
+--- !u!4 &1394566433
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1394566431}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.5, y: -5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 562827631}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1437538060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1437538062}
+  - component: {fileID: 1437538061}
+  m_Layer: 0
+  m_Name: Current Speed [1.7]
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1437538061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1437538060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90471c471267224fbe3a4f463678351, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 13
+    y: -3.8
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DATA.FLOATVARIABLE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: 'Stores and outputs a Floating Point (single precision decimal, eg 3.1412)
+    value.
+
+    Source should be [None] if this is a target of a Store X function.'
+  m_functionSource: {fileID: 1825692686}
+  m_attachedToOutput:
+  - m_currentValue
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: 0
+  m_source: {fileID: 0}
+--- !u!4 &1437538062
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1437538060}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13, y: -3.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 562827631}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1439081658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1439081659}
+  m_Layer: 0
+  m_Name: Muzzle location [2.5]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1439081659
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1439081658}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 819220914}
+  m_Father: {fileID: 162667119}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1545026565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1545026566}
+  - component: {fileID: 1545026567}
+  m_Layer: 0
+  m_Name: Create bullet[2.5]
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1545026566
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1545026565}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18, y: 6.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 819220914}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1545026567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1545026565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 913a54f2115a5534e95eeb58d6c7cd42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 18
+    y: 6.05
+    width: 2
+    height: 0.90000004
+  classCode: ANGLIA.CGTECH.CKIT.OUTPUT.CREATEINSTANCE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Spawns an instance of a prefab or other game object.
+  m_doAfter: {fileID: 1009944267}
+  m_prefab: {fileID: 1085435791216794, guid: 9bd09f0143918a34394319d65b781c45, type: 2}
+  m_location: {fileID: 2023982814}
+  m_enabled: {fileID: 1286062275}
+  lastTriggerValue: 0
+  m_currentValue: {fileID: 0}
+--- !u!1 &1553344684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1553344686}
+  - component: {fileID: 1553344685}
+  m_Layer: 0
+  m_Name: Calculate New Position [1.8]
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1553344685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1553344684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee0706d403ea9ee4ba3e42966dbbc014, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 28
+    y: -8.3
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.MATHS.VECTORADDITION
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Adds together the value of all inputs
+  m_doAfter: {fileID: 576208486}
+  m_sources:
+  - {fileID: 1939972641}
+  - {fileID: 2011145722}
+  m_currentValue: {x: 0, y: 0}
+--- !u!4 &1553344686
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1553344684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 28, y: -8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 562827631}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1704254678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1704254680}
+  - component: {fileID: 1704254679}
+  m_Layer: 0
+  m_Name: Upper boundary[2.12]
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1704254679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1704254678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93dc251b958bb747b2996b0fbe75100, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: -9
+    y: -4.745
+    width: 2
+    height: 0.45000002
+  classCode: ANGLIA.CGTECH.CKIT.INPUT.THISGAMEOBJECT
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Converts a GameObject to a GameObjectSource for use in Kit processes.
+  m_functionSource: {fileID: 0}
+  m_attachedToOutput: []
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: {fileID: 1704254678}
+--- !u!4 &1704254680
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1704254678}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9, y: -4.52, z: 0.109375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1765615645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1765615646}
+  - component: {fileID: 1765615647}
+  m_Layer: 0
+  m_Name: Discover boundary[2.11]
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1765615646
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1765615645}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3, y: 9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 675848936}
+  - {fileID: 770800826}
+  - {fileID: 1344263547}
+  - {fileID: 1973485065}
+  - {fileID: 574446012}
+  m_Father: {fileID: 162667119}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1765615647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1765615645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b9d5f4f31b06a49b0c7ccc01734c08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 3
+    y: 9
+    width: 0
+    height: 0
+  classCode: LOGICBLOCK
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Design-time element to draw a container around related child objects.
+  scaleFactor: 1.1
+  boxColor: {r: 1, g: 1, b: 1, a: 0.25}
+  m_FirstGenerationOnly: 0
+  m_mode: 2
+  m_hideGizmos: 0
+--- !u!1 &1777599463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1777599465}
+  - component: {fileID: 1777599464}
+  m_Layer: 0
+  m_Name: Player Reference [1.7]
+  m_TagString: Untagged
+  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1777599464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1777599463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2815b1548a49d0e428353a1412c784a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 3.5
+    y: -0.725
+    width: 2
+    height: 0.45000002
+  classCode: ANGLIA.CGTECH.CKIT.INPUT.ROOTGAMEOBJECT
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Converts a GameObject to a GameObjectSource for use in Kit processes.
+  m_functionSource: {fileID: 0}
+  m_attachedToOutput: []
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: {fileID: 162667118}
+--- !u!4 &1777599465
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1777599463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 562827631}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1825692685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1825692687}
+  - component: {fileID: 1825692686}
+  m_Layer: 0
+  m_Name: Calculate Speed [1.7]
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1825692686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1825692685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c653dd664b57444aa69d8c481c8f3d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 9.5
+    y: -1.8
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.FUNCTIONS.SCALEFLOATINGPOINT
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Scales (multiplies) two or more floats together (e.g. A x B x C)
+  m_doAfter: {fileID: 1097573468}
+  m_sources:
+  - {fileID: 2049713483}
+  - {fileID: 150928292}
+  m_currentValue: 0
+--- !u!4 &1825692687
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1825692685}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.5, y: -1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 562827631}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1851761306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1851761307}
+  - component: {fileID: 1851761308}
+  m_Layer: 0
+  m_Name: Calculate Velocity [1.7]
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1851761307
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1851761306}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.5, y: -4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 401701705}
+  m_Father: {fileID: 562827631}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1851761308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1851761306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85d0c73a9a2368a46a035828456358f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 18.5
+    y: -4.375
+    width: 2
+    height: 0.75
+  classCode: ANGLIA.CGTECH.CKIT.MATHS.SCALEVECTOR
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Scales (multiplies) a 2D Vector by a float
+  m_doAfter: {fileID: 1825692686}
+  m_scaleFactor: {fileID: 1437538061}
+  m_vectorSource: {fileID: 1394566432}
+  m_currentValue: {x: 0, y: 0}
+--- !u!1 &1939972640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1939972642}
+  - component: {fileID: 1939972641}
+  m_Layer: 0
+  m_Name: Calculate Displacement [1.8]
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1939972641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1939972640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b82db447ac37943938b57d63c956ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 25
+    y: -11.3
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DATA.VECTORVARIABLE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: 'Stores and outputs a Vector (2D, xy) value.
+
+    Source should be [None] if this is a target of a Store X function.'
+  m_functionSource: {fileID: 576208486}
+  m_attachedToOutput:
+  - m_currentValue
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: {x: 0, y: 0}
+  m_source: {fileID: 0}
+--- !u!4 &1939972642
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1939972640}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: -2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 576208487}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1954649563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1954649564}
+  - component: {fileID: 1954649565}
+  m_Layer: 0
+  m_Name: U bound[2.10]
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1954649564
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1954649563}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 574446012}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1954649565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1954649563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95a635eedc9523845bd76a41d29e46e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 12.5
+    y: 6.2
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DATA.GAMEOBJECTVARIABLE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Stores and outputs a Game Object (e.g. from ExtractGameObject).
+  m_functionSource: {fileID: 574446013}
+  m_attachedToOutput:
+  - m_currentValue
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: {fileID: 0}
+  m_source: {fileID: 0}
+--- !u!1 &1963348217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1963348219}
+  - component: {fileID: 1963348218}
+  m_Layer: 0
+  m_Name: Frame update [2.5]
+  m_TagString: Untagged
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1963348218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1963348217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 651e006865d3d924995a2a1e8d0dce12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 0
+    y: -0.3
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.EVENTS.FRAMEUPDATE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Sends a Command Signal each frame of the game.
+  m_frameDuration: 0
+--- !u!4 &1963348219
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1963348217}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 819220914}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1973485063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1973485065}
+  - component: {fileID: 1973485064}
+  m_Layer: 0
+  m_Name: Upper boundary name[2.10]
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1973485064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1973485063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72da04c74d2e94f4495b043a1e634979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 6.5
+    y: 6.2
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DATA.STRINGVARIABLE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Stores and outputs a String (text) value.
+  m_functionSource: {fileID: 0}
+  m_attachedToOutput: []
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: Upper boundary[2.12]
+  m_source: {fileID: 0}
+--- !u!4 &1973485065
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1973485063}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5, y: -2.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1765615646}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2003999391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2003999393}
+  - component: {fileID: 2003999392}
+  m_Layer: 0
+  m_Name: Get U position[2.12]
+  m_TagString: Untagged
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2003999392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2003999391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c40caacc92ec6b4fb0384dd21e65599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 35.5
+    y: 10.7
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DISCOVERY.GETPOSITION
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: Retrieves a vector from a Game Object source.
+  m_doAfter: {fileID: 1299695869}
+  m_source: {fileID: 1954649565}
+  m_currentValue: {x: 0, y: 0}
+--- !u!4 &2003999393
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2003999391}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 35.5, y: 11, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 239523728}
+  m_Father: {fileID: 162667119}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2011145721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2011145723}
+  - component: {fileID: 2011145722}
+  m_Layer: 0
+  m_Name: Current Position [1.7]
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2011145722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2011145721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b82db447ac37943938b57d63c956ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 12
+    y: 0.7
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DATA.VECTORVARIABLE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: 'Stores and outputs a Vector (2D, xy) value.
+
+    Source should be [None] if this is a target of a Store X function.'
+  m_functionSource: {fileID: 1097573468}
+  m_attachedToOutput:
+  - m_currentValue
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: {x: 0, y: 0}
+  m_source: {fileID: 0}
+--- !u!4 &2011145723
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2011145721}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 562827631}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2022843809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2022843810}
+  - component: {fileID: 2022843811}
+  m_Layer: 0
+  m_Name: Clamped position[2.12]
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2022843810
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2022843809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 46, y: 10, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 562827631}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2022843811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2022843809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b82db447ac37943938b57d63c956ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 46
+    y: 9.7
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DATA.VECTORVARIABLE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: 'Stores and outputs a Vector (2D, xy) value.
+
+    Source should be [None] if this is a target of a Store X function.'
+  m_functionSource: {fileID: 1336990041}
+  m_attachedToOutput:
+  - m_currentValue
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: {x: 0, y: 0}
+  m_source: {fileID: 0}
+--- !u!1 &2023982812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2023982813}
+  - component: {fileID: 2023982814}
+  m_Layer: 0
+  m_Name: Muzzle position[2.5]
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2023982813
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2023982812}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 819220914}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2023982814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2023982812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b82db447ac37943938b57d63c956ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: 0
+    y: -0.3
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DATA.VECTORVARIABLE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: 'Stores and outputs a Vector (2D, xy) value.
+
+    Source should be [None] if this is a target of a Store X function.'
+  m_functionSource: {fileID: 1009944267}
+  m_attachedToOutput:
+  - m_currentValue
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: {x: 0, y: 0}
+  m_source: {fileID: 0}
+--- !u!1 &2049713482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2049713484}
+  - component: {fileID: 2049713483}
+  m_Layer: 0
+  m_Name: Max Speed [1.7]
+  m_TagString: Untagged
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2049713483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2049713482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90471c471267224fbe3a4f463678351, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_activity: 0
+  windowDisplayRect:
+    serializedVersion: 2
+    x: -3.5
+    y: -7.3
+    width: 2
+    height: 0.6
+  classCode: ANGLIA.CGTECH.CKIT.DATA.FLOATVARIABLE
+  hideGizmos: 0
+  currentlySelected: 0
+  m_summary: 'Stores and outputs a Floating Point (single precision decimal, eg 3.1412)
+    value.
+
+    Source should be [None] if this is a target of a Store X function.'
+  m_functionSource: {fileID: 0}
+  m_attachedToOutput: []
+  optionChoices: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_currentValue: 5
+  m_source: {fileID: 0}
+--- !u!4 &2049713484
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2049713482}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.5, y: -7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 562827631}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

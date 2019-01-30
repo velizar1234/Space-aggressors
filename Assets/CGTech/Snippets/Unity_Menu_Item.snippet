@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+
+  <CodeSnippet Format="1.0.0">
+
+    <Header>
+      <Title>Construction Kit Menu Function</Title>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[
+      [MenuItem("")]
+      public static void Make$KitComponent$()
+      {
+        NewGameObject<$KitComponent$>();
+      }
+      ]]>
+      </Code>
+    </Snippet>
+    <Declarations>
+      <Literal>
+        <ID>KitComponent</ID>
+        <Type>Anglia.CGTech.CKit.Helper.KitComponent</Type>
+        <ToolTip>Replace with a component.</ToolTip>
+        <Default>KitComponent</Default>
+      </Literal>
+    </Declarations>
+  </CodeSnippet>
+</CodeSnippets>
